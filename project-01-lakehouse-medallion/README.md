@@ -14,3 +14,13 @@ It demonstrates how to ingest raw data into Bronze, cleanse and standardise it i
 ---
 
 ## 🏗 Architecture
+
+
+
+- **Bronze:** Raw ingestion (CSV/JSON/API extracts)
+- **Silver:** Cleansing, deduplication, schema enforcement
+- **Gold:** Fact/dimension modelling for analytics
+
+---
+
+## 📁 Project Structure
