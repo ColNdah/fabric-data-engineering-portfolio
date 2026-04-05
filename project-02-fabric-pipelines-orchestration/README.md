@@ -12,3 +12,11 @@ This project demonstrates how to orchestrate multi-stage ELT workflows in **Micr
 ---
 
 ## 🏗 Pipeline Architecture
+
+Notebook 1 (Bronze) → Notebook 2 (Silver) → Notebook 3 (Gold)
+
+Each stage runs only after the previous one completes successfully.
+
+---
+
+## 📁 Project Structure
